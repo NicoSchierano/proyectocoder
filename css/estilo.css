@@ -1,0 +1,433 @@
+@media screen and (max-width:600px){
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+
+* { 
+    padding: 0;
+    margin: 0;
+}
+/* ajustar bordes de web */
+
+header {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    font-family: sans-serif;
+    position: relative;
+    padding-bottom: 3em;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    border-radius: 200px;
+    width: 88px;    
+    height: 88px; 
+}
+
+
+nav {
+    font-weight: 600;
+    padding-right: 15px;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+.banner {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+}
+
+img#img_banner {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 600px;
+    min-width: 390px;
+}
+
+    .titulos {
+        text-align: center;
+        font-size: 40px;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        color: rgb(77, 76, 77) ;
+        text-shadow: black;
+    }
+
+    .post-titulos {
+        text-align: center;
+        font-size: 25px;
+        font-family: sans-serif;
+        color: rgb(77, 76, 77) ;
+        margin-top: 2%;
+    }
+
+.galeria {
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 lightblue;
+    float: left;
+    width: 350px;
+    padding: auto;
+    overflow: hidden;
+    cursor: default;
+    transition: all 400ms ease;
+
+}
+
+div.galeria img {
+    height: auto;
+    width: 100%;
+}
+
+div.pie {
+    text-align: center;
+    text-shadow: black;
+    pad: 10px;
+}
+
+.hola {
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: rgb(77, 76, 77) ;
+    text-shadow: black;
+    margin-top: 25%;
+}
+
+.clientes {
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 lightblue;
+    float: left;
+    width: 350px;
+    padding: auto;
+    overflow: hidden;
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.clientesreferencias {
+    margin: 1em;
+    padding: 1em;
+    color: rgb(255, 255, 255);
+    float: left;
+}
+
+#cliente1 {
+    background-color: red;
+}
+
+#cliente2 {
+    background-color: rgb(56, 228, 13);
+}
+
+#cliente3 {
+    background-color: blue;
+}
+
+#cliente4 {
+    background-color: violet;
+}
+
+#cliente5 {
+    background-color: gold;
+}
+
+#cliente6 {
+    background-color: gray;
+}
+
+#cliente7 {
+    background-color: orange;
+}
+
+#cliente8 {
+    background-color: pink;
+}
+
+footer {
+    background-color: rgb(230, 230, 230);
+    position: absolute;
+    width: 100%;
+    bottom: -35%;
+    margin-top: auto;
+    padding: 10;
+    border: 0em;
+}
+
+.titulofooter {
+    text-align: left;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.textofooter{
+    text-align: left;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.copyright {
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 9px;
+}
+
+.titulofooter2 {
+    text-align: right;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.redes a {
+    text-align: right;
+}
+
+.galeria:hover{
+    transform: translateY(-3%);
+
+}
+
+.clientes:hover{
+    transform: translateY(-3%);
+}
+
+}
+
+@media screen and (min-width:1200px){
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+
+* { 
+    padding: 0;
+    margin: 0;
+}
+/* ajustar bordes de web */
+
+header {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    font-family: sans-serif;
+    position: relative;
+    padding-bottom: 3em;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    border-radius: 200px;
+    width: 88px;    
+    height: 88px; 
+}
+
+
+nav {
+    font-weight: 600;
+    padding-right: 15px;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+.banner {
+    width: 100%;
+    height: 400px;
+    background-color: white;
+}
+
+img#img_banner {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+    min-width: 500px;}
+
+    .titulos {
+        text-align: center;
+        font-size: 40px;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        color: rgb(77, 76, 77) ;
+        text-shadow: black;
+    }
+
+    .post-titulos {
+        text-align: center;
+        font-size: 25px;
+        font-family: sans-serif;
+        color: rgb(77, 76, 77) ;
+        margin-top: 2%;
+    }
+
+.galeria {
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 lightblue;
+    float: left;
+    width: 350px;
+    padding: auto;
+}
+
+div.galeria img {
+    height: auto;
+    width: 100%;
+}
+
+div.pie {
+    text-align: center;
+    text-shadow: black;
+    pad: 10px;
+}
+
+.hola {
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: rgb(77, 76, 77) ;
+    text-shadow: black;
+    margin-top: 25%;
+}
+
+.clientes {
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 lightblue;
+    float: left;
+    width: 350px;
+    padding: auto;
+}
+
+.clientesreferencias {
+    margin: 1em;
+    padding: 1em;
+    color: rgb(255, 255, 255);
+    float: left;
+}
+
+#cliente1 {
+    background-color: red;
+}
+
+#cliente2 {
+    background-color: rgb(56, 228, 13);
+}
+
+#cliente3 {
+    background-color: blue;
+}
+
+#cliente4 {
+    background-color: violet;
+}
+
+#cliente5 {
+    background-color: gold;
+}
+
+#cliente6 {
+    background-color: gray;
+}
+
+#cliente7 {
+    background-color: orange;
+}
+
+#cliente8 {
+    background-color: pink;
+}
+
+footer {
+    background-color: rgb(230, 230, 230);
+    position: absolute;
+    width: 100%;
+    bottom: -30%;
+    margin-top: auto;
+    padding: 25px;
+    border: 0em;
+}
+
+.titulofooter {
+    text-align: left;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.textofooter{
+    text-align: left;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.copyright {
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 9px;
+}
+
+.titulofooter2 {
+    text-align: right;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.redes a {
+    text-align: right;
+}
+
+.galeria:hover{
+    transform: translateY(-3%);
+
+}
+
+.clientes:hover{
+    transform: translateY(-3%);
+}
+
+.flex-container{
+    background-color: brown;
+}
+
+}
+    
